@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://img.icons8.com/material-outlined/452/squared-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto 35px auto;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto 35px auto;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto 35px auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons div button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons div button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color:#5f6368
+}
